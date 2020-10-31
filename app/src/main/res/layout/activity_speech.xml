@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".Speech">
+
+    <ImageView
+        android:layout_width="253dp"
+        android:layout_height="184dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/speaker" />
+
+    <EditText
+        android:id="@+id/enterText"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/enterSpeech"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:text="@string/pitch"
+        android:textColor="@color/colorTransparentWhite"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/pitch"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:progress="50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:text="@string/speed"
+        android:textColor="@color/colorTransparentWhite"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/speed"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:progress="50" />
+
+    <Button
+        android:id="@+id/pronounce"
+        android:layout_width="120dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_background"
+        android:enabled="false"
+        android:text="@string/pronounce"
+        android:textColor="@color/colorTransparentWhite"
+        android:textSize="17sp" />
+
+</LinearLayout>

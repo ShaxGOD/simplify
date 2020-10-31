@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">simplify</string>
+    <string name="title">Simplify</string>
+    <string name="subtitle">Your daily things in one app</string>
+    <string name="timer">Timer</string>
+    <string name="speech">Speech</string>
+    <string name="movie">Top Movies</string>
+    <string name="game">Tic Tac Toe</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string-array name="types">
+        <item>All</item>
+        <item>Daily life</item>
+        <item>Work</item>
+        <item>Study</item>
+    </string-array>
+    <string name="add">Add</string>
+    <string name="enterSpeech">Enter text</string>
+    <string name="pitch">Pitch</string>
+    <string name="speed">Speed</string>
+    <string name="pronounce">Pronounce</string>
+    <string name="restartgame">Restart</string>
+    <string name="firstplayer">First player: 0</string>
+    <string name="secondplayer">Second player: 0</string>
+    <string name="countdowntime">25:00</string>
+    <string name="startcountdown">Start</string>
+    <string name="resetcountdown">Reset</string>
+    <string-array name="minutes">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+    </string-array>
+    <string name="spinner_text">Choose minute</string>
+    <string name="apply">Apply</string>
+    <string name="movieTitle">THE BEST MOVIES OF 2020, RANKED BY ME </string>
+</resources>
